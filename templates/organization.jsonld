@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.example.com/#organization",
+      "name": "Example Co",
+      "url": "https://www.example.com",
+      "logo": "https://www.example.com/logo.png",
+      "description": "Example Co is a [category] that [does what] for [whom]. Use the same sentence here, on the homepage, and on every profile.",
+      "foundingDate": "2021",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "City",
+        "addressRegion": "Region",
+        "addressCountry": "IN"
+      },
+      "founder": [{ "@id": "https://www.example.com/#founder" }],
+      "sameAs": [
+        "https://www.linkedin.com/company/example-co/",
+        "https://www.crunchbase.com/organization/example-co",
+        "https://www.wikidata.org/wiki/Q000000",
+        "https://x.com/exampleco",
+        "https://github.com/example-co"
+      ],
+      "knowsAbout": ["Topic one", "Topic two"]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.example.com/#founder",
+      "name": "Founder Name",
+      "jobTitle": "Co-Founder & CEO",
+      "worksFor": { "@id": "https://www.example.com/#organization" },
+      "sameAs": ["https://www.linkedin.com/in/founder/"]
+    }
+  ]
+}

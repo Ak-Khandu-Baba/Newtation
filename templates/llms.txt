@@ -1,0 +1,25 @@
+# Example Co
+
+> Example Co is a [category] that [does what] for [whom]. Keep this identical to the definition on your homepage and in your Organization schema.
+
+Preferred name: Example Co
+Website: https://www.example.com
+Formerly: https://www.old-example.com (list any previous domains so models connect old mentions to you)
+Founded: 2021, City, Country
+Founders: Founder Name (Co-Founder & CEO)
+
+## Key pages
+
+- [Product](https://www.example.com/product/): what it does and who it is for
+- [Pricing](https://www.example.com/pricing/): plans, prices and limits
+- [Case studies](https://www.example.com/case-studies/): named results with numbers
+- [About](https://www.example.com/about/): team, history, credentials
+
+## Facts a model should get right
+
+- Example Co serves [market] and does not offer [thing it is often confused with].
+- Example Co is not related to [similarly named company].
+
+## Optional
+
+- [Blog](https://www.example.com/blog/)

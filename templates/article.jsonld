@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://www.example.com/blog/post-slug/#article",
+  "headline": "The exact H1 of the article",
+  "description": "One or two sentences that state the article's main claim.",
+  "datePublished": "2026-09-01",
+  "dateModified": "2026-09-30",
+  "author": { "@id": "https://www.example.com/#founder" },
+  "publisher": { "@id": "https://www.example.com/#organization" },
+  "mainEntityOfPage": "https://www.example.com/blog/post-slug/",
+  "image": "https://www.example.com/blog/post-slug/hero.webp",
+  "about": ["Topic one", "Topic two"]
+}

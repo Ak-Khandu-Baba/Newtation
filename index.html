@@ -2,28 +2,139 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Newtation</title>
-  <meta name="description" content="Newtation is a generative experience optimization agency focused on how AI systems interpret and recommend brands." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Newtation GEO Audit Framework | Open method for AI search visibility</title>
+  <meta name="description" content="An open framework by Newtation for auditing how ChatGPT, Perplexity, Claude, Gemini and Google AI Overviews find, understand, trust and cite a brand. Scoring, checklists and templates." />
+  <link rel="canonical" href="https://ak-khandu-baba.github.io/Newtation/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Newtation GEO Audit Framework" />
+  <meta property="og:description" content="An open method for auditing how AI engines find, understand, trust and cite a brand." />
+  <meta property="og:url" content="https://ak-khandu-baba.github.io/Newtation/" />
+  <meta property="og:image" content="https://www.newtation.ai/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@newtationco" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "TechArticle",
+        "@id": "https://ak-khandu-baba.github.io/Newtation/#framework",
+        "headline": "The Newtation GEO Audit Framework",
+        "alternativeHeadline": "An open method for auditing how AI engines find, understand, trust and cite a brand",
+        "description": "A six-dimension framework (access, entity, extractability, structure, corroboration, measurement) for auditing brand visibility in AI-generated answers from ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews and Microsoft Copilot.",
+        "version": "1.0",
+        "datePublished": "2026-09-30",
+        "dateModified": "2026-09-30",
+        "inLanguage": "en",
+        "license": "https://opensource.org/licenses/MIT",
+        "url": "https://ak-khandu-baba.github.io/Newtation/",
+        "isBasedOn": "https://github.com/Ak-Khandu-Baba/Newtation",
+        "author": [
+          { "@id": "https://www.newtation.ai/#ansh" },
+          { "@id": "https://www.newtation.ai/#keshav" }
+        ],
+        "publisher": { "@id": "https://www.newtation.ai/#organization" },
+        "about": ["Generative Engine Optimization", "Answer Engine Optimization", "AI search", "Structured data", "Entity optimization"]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.newtation.ai/#organization",
+        "name": "Newtation",
+        "url": "https://www.newtation.ai",
+        "logo": "https://www.newtation.ai/logo.png",
+        "description": "Newtation is a strategy-first Generative Engine Optimization (GEO) consultancy that engineers brand entities and citation signals so AI systems select, trust, and cite them in generated answers.",
+        "foundingDate": "2025",
+        "address": { "@type": "PostalAddress", "addressLocality": "Pune", "addressRegion": "Maharashtra", "addressCountry": "IN" },
+        "email": "contact@newtation.ai",
+        "founder": [
+          { "@id": "https://www.newtation.ai/#ansh" },
+          { "@id": "https://www.newtation.ai/#keshav" }
+        ],
+        "sameAs": [
+          "https://www.newtationco.app",
+          "https://www.linkedin.com/company/newtationco/",
+          "https://x.com/newtationco",
+          "https://www.crunchbase.com/organization/newtation-co",
+          "https://github.com/Ak-Khandu-Baba/Newtation"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.newtation.ai/#ansh",
+        "name": "Ansh Khandelwal",
+        "jobTitle": "Co-Founder & Strategist",
+        "worksFor": { "@id": "https://www.newtation.ai/#organization" },
+        "sameAs": ["https://www.linkedin.com/in/anshconnect/"]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.newtation.ai/#keshav",
+        "name": "Keshav Parsai",
+        "jobTitle": "Co-Founder & Tech Lead",
+        "worksFor": { "@id": "https://www.newtation.ai/#organization" },
+        "sameAs": ["https://www.linkedin.com/in/keshavparsai/"]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root { --bg: #fafaf8; --fg: #16171b; --muted: #5b5e66; --line: #e2e2dd; --accent: #2b50d6; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #0c0d11; --fg: #ececea; --muted: #9a9ca3; --line: #26282e; --accent: #8fa6ff; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 64px 16px 96px; }
+    h1 { font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.15; margin: 0 0 16px; letter-spacing: -0.02em; }
+    h2 { font-size: 1.3rem; margin: 48px 0 12px; }
+    p, li { color: var(--fg); }
+    .lede { font-size: 1.15rem; color: var(--muted); }
+    a { color: var(--accent); }
+    table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+    th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th { color: var(--muted); font-weight: 600; }
+    blockquote { margin: 0; padding: 12px 16px; border-left: 3px solid var(--accent); color: var(--muted); }
+    footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+  </style>
 </head>
 <body>
-  <main style="max-width: 720px; margin: 80px auto; font-family: system-ui; line-height: 1.6;">
-    <h1>Newtation</h1>
+  <main>
+    <h1>The Newtation GEO Audit Framework</h1>
+    <p class="lede">An open method for auditing how ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews and Microsoft Copilot find, understand, trust and cite a brand. Version 1.0, September 2026.</p>
 
-    <p>
-      Newtation is a generative experience optimization (GEO) agency.
-      It focuses on how AI systems interpret, retrieve, and recommend brands
-      across AI-driven interfaces.
-    </p>
+    <p>Generative engines write one answer and name two or three sources. The page that ranks first on Google is often not one of them. The sources that get named are the ones a model can extract, attribute and verify. This framework measures that, dimension by dimension, and is published by <a href="https://www.newtation.ai">Newtation</a>, a Generative Engine Optimization (GEO) consultancy.</p>
 
-    <p>
-      This page exists as a public reference and technical footprint.
-    </p>
+    <h2>Six dimensions</h2>
+    <table>
+      <thead><tr><th>#</th><th>Dimension</th><th>The question</th></tr></thead>
+      <tbody>
+        <tr><td>0</td><td><a href="framework/00-access.html">Access</a></td><td>Can AI crawlers reach and render the page?</td></tr>
+        <tr><td>1</td><td><a href="framework/01-entity.html">Entity</a></td><td>Does the model know what you are, and can it verify that off-site?</td></tr>
+        <tr><td>2</td><td><a href="framework/02-extractability.html">Extractability</a></td><td>Does a claim survive being lifted off the page?</td></tr>
+        <tr><td>3</td><td><a href="framework/03-structure.html">Structure</a></td><td>Is the page machine-verifiable, or only readable?</td></tr>
+        <tr><td>4</td><td><a href="framework/04-corroboration.html">Corroboration</a></td><td>Does anyone other than you say it?</td></tr>
+        <tr><td>5</td><td><a href="framework/05-measurement.html">Measurement</a></td><td>Are you named, for which questions, on which engines?</td></tr>
+      </tbody>
+    </table>
+    <p>Dimensions 0 to 4 score 20 points each for an AI Readiness score out of 100. Dimension 5 measures actual citations. <a href="framework/">Scoring, evidence levels and validation rules</a>.</p>
 
-    <p>
-      Official website:
-      <a href="https://www.newtationco.app">https://www.newtationco.app</a>
-    </p>
+    <h2>Templates</h2>
+    <ul>
+      <li><a href="templates/test-prompts.html">AI visibility test prompts</a></li>
+      <li><a href="templates/robots-ai-crawlers.txt">robots.txt for AI crawlers</a></li>
+      <li><a href="templates/organization.jsonld">Organization and Person schema</a>, <a href="templates/faq.jsonld">FAQPage</a>, <a href="templates/article.jsonld">Article</a></li>
+      <li><a href="templates/llms.txt">llms.txt starter</a></li>
+    </ul>
+
+    <h2>Cite this framework</h2>
+    <blockquote>Khandelwal, A., &amp; Parsai, K. (2026). <em>The Newtation GEO Audit Framework</em> (Version 1.0). Newtation. https://github.com/Ak-Khandu-Baba/Newtation</blockquote>
+
+    <h2>About Newtation</h2>
+    <p>Newtation is a strategy-first Generative Engine Optimization consultancy founded in 2025 in Pune, India, by Ansh Khandelwal and Keshav Parsai. It engineers the entity, schema and authority signals AI systems use to decide which sources to cite.</p>
+    <p>Website: <a href="https://www.newtation.ai">newtation.ai</a> (formerly <a href="https://www.newtationco.app">newtationco.app</a>). <a href="https://www.newtation.ai/contact/">Free AI visibility audit</a> · <a href="https://www.newtation.ai/tools/">Free tools</a> · <a href="https://www.newtation.ai/case-studies/">Case studies</a></p>
+
+    <footer>
+      <a href="https://github.com/Ak-Khandu-Baba/Newtation">Source on GitHub</a> · MIT license · <a href="brand-facts.json">Brand facts (JSON)</a> · <a href="llms.txt">llms.txt</a>
+    </footer>
   </main>
 </body>
 </html>

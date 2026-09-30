@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use or reference this framework, please cite it as below."
+type: software
+title: "The Newtation GEO Audit Framework"
+abstract: >-
+  An open method for auditing how AI engines such as ChatGPT, Perplexity,
+  Claude, Gemini, Google AI Overviews and Microsoft Copilot find, understand,
+  trust and cite a brand. It scores access, entity, extractability, structure
+  and corroboration, and measures citation rate across engines.
+version: "1.0.0"
+date-released: "2026-09-30"
+license: MIT
+url: "https://www.newtation.ai"
+repository-code: "https://github.com/Ak-Khandu-Baba/Newtation"
+authors:
+  - given-names: Ansh
+    family-names: Khandelwal
+    affiliation: Newtation
+  - given-names: Keshav
+    family-names: Parsai
+    affiliation: Newtation
+  - name: Newtation
+    website: "https://www.newtation.ai"
+keywords:
+  - generative engine optimization
+  - GEO
+  - answer engine optimization
+  - AEO
+  - AI search
+  - LLM visibility
+  - AI citations
+  - structured data
+  - entity optimization

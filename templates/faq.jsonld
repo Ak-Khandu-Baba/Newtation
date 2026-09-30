@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.example.com/pricing/#faq",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does Example Co cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Example Co costs ₹4,999 per month for up to 10 users. Answer the question in the first sentence, with the number. The same text must be visible on the page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is Example Co for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Example Co is for logistics companies with 20 to 200 employees that process more than 500 invoices a month."
+      }
+    }
+  ]
+}

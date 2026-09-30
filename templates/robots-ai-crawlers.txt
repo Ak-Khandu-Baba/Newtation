@@ -1,0 +1,49 @@
+# robots.txt template for sites that want to be cited by AI engines.
+# From the Newtation GEO Audit Framework: https://github.com/Ak-Khandu-Baba/Newtation
+#
+# Search/retrieval bots fetch pages to answer a live question and cite them.
+# Training bots collect data for future models. You can allow one and block
+# the other; blocking retrieval bots removes you from cited answers.
+
+# OpenAI
+# ChatGPT search results
+User-agent: OAI-SearchBot
+Allow: /
+# fetches a page when a user asks
+User-agent: ChatGPT-User
+Allow: /
+# training
+User-agent: GPTBot
+Allow: /
+
+# Anthropic
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+# training
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+
+# Google (Google-Extended controls Gemini training use, not Search or AI Overviews)
+User-agent: Googlebot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+# Microsoft (Copilot uses the Bing index)
+User-agent: Bingbot
+Allow: /
+
+# Everyone else
+User-agent: *
+Disallow: /admin/
+Disallow: /cart/
+
+Sitemap: https://www.example.com/sitemap.xml

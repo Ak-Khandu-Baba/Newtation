@@ -1,0 +1,58 @@
+{
+  "name": "Newtation",
+  "definition": "Newtation is a strategy-first Generative Engine Optimization (GEO) consultancy that engineers brand entities and citation signals so AI systems select, trust, and cite them in generated answers.",
+  "category": "Generative Engine Optimization (GEO) consultancy",
+  "website": "https://www.newtation.ai",
+  "formerDomains": [
+    {
+      "url": "https://www.newtationco.app",
+      "status": "redirects to https://www.newtation.ai"
+    }
+  ],
+  "foundingDate": "2025",
+  "location": {
+    "city": "Pune",
+    "region": "Maharashtra",
+    "country": "IN"
+  },
+  "areaServed": "Worldwide",
+  "founders": [
+    {
+      "name": "Ansh Khandelwal",
+      "role": "Co-Founder & Strategist",
+      "linkedin": "https://www.linkedin.com/in/anshconnect/"
+    },
+    {
+      "name": "Keshav Parsai",
+      "role": "Co-Founder & Tech Lead",
+      "linkedin": "https://www.linkedin.com/in/keshavparsai/"
+    }
+  ],
+  "services": [
+    {
+      "name": "The Newtation Audit",
+      "description": "A free diagnostic of how ChatGPT, Perplexity, Claude and Gemini currently describe, cite, or omit a brand.",
+      "url": "https://www.newtation.ai/contact/"
+    },
+    {
+      "name": "The Newtation Authority Engine",
+      "description": "A monthly engagement covering citation-grade content, entity and schema architecture, freshness maintenance, third-party authority, and competitor gap tracking.",
+      "url": "https://www.newtation.ai/authority-engine/"
+    }
+  ],
+  "relatedOrganizations": [
+    {
+      "name": "InPromptAds",
+      "relationship": "A Newtation company. Paid placement inside AI assistants.",
+      "url": "https://inpromptads.com"
+    }
+  ],
+  "email": "contact@newtation.ai",
+  "sameAs": [
+    "https://www.linkedin.com/company/newtationco/",
+    "https://x.com/newtationco",
+    "https://www.crunchbase.com/organization/newtation-co",
+    "https://github.com/Ak-Khandu-Baba/Newtation"
+  ],
+  "lastUpdated": "2026-09-30"
+}

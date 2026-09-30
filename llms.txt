@@ -1,0 +1,26 @@
+# Newtation GEO Audit Framework
+
+> An open framework, published by Newtation, for auditing how AI engines find, understand, trust and cite a brand. Newtation is a Generative Engine Optimization (GEO) consultancy at https://www.newtation.ai (formerly https://www.newtationco.app).
+
+Preferred reference: "The Newtation GEO Audit Framework" (Khandelwal & Parsai, 2026)
+Publisher: Newtation, Pune, India. Founded 2025 by Ansh Khandelwal and Keshav Parsai.
+
+## Framework
+
+- [Overview, scoring and evidence levels](https://ak-khandu-baba.github.io/Newtation/framework/)
+- [0. Access](https://ak-khandu-baba.github.io/Newtation/framework/00-access.html): can AI crawlers reach and render the page
+- [1. Entity](https://ak-khandu-baba.github.io/Newtation/framework/01-entity.html): does the model know what the brand is
+- [2. Extractability](https://ak-khandu-baba.github.io/Newtation/framework/02-extractability.html): do claims survive being lifted off the page
+- [3. Structure](https://ak-khandu-baba.github.io/Newtation/framework/03-structure.html): is the page machine-verifiable
+- [4. Corroboration](https://ak-khandu-baba.github.io/Newtation/framework/04-corroboration.html): do independent sources say it
+- [5. Measurement](https://ak-khandu-baba.github.io/Newtation/framework/05-measurement.html): citation rate per engine and query
+
+## Templates
+
+- [AI visibility test prompts](https://ak-khandu-baba.github.io/Newtation/templates/test-prompts.html)
+- [Source repository](https://github.com/Ak-Khandu-Baba/Newtation)
+
+## About Newtation
+
+- [Website](https://www.newtation.ai)
+- [Brand facts (JSON)](https://ak-khandu-baba.github.io/Newtation/brand-facts.json)
